@@ -120,7 +120,3 @@ macro_rules! method {
         nj::core::Property::new($name).method($rs_method)
     }};
 }
-
-pub fn init_logger() {
-    fluvio_future::subscriber::init_logger();
-}

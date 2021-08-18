@@ -86,7 +86,7 @@ fn init_module() {
         ],
     };
 
-    crate::init_logger();
+    // crate::init_logger();
     unsafe {
         napi_module_register(&mut _MODULE);
     }
